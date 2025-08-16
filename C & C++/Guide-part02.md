@@ -1,5 +1,10 @@
 # Installing Latest C/C++ Compiler on Windows 11 (Quick Methods)
 
+## 0. Using Mega for Mingw-64 File 
+[Download it here](https://mega.nz/file/QwR2GYTb#vcgh-6GKiYQDZFDovdRbq__Pr-mlTDv3LL0EmVgtBpg)
+
+This is a C/C++ compiler. Simply download, extract, and use it without hassle. Just copy it to the `C drive`, add the `bin folde`r to your system `PATH`, and start coding.
+
 ## 1. Using Winget (Built into Windows 11)
 Winget can directly pull the compiler from official repositories.
 
