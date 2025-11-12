@@ -47,6 +47,9 @@ pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
 | Debug (MSVC, IDE) | Use F5/F9 for breakpoints and step-through |
 | Debug (GDB) | `gdb myapp.exe` in terminal |
 
+### D. See the Guide-part02.md file 
+if above option not work then use `guide-part02.md` file for easy installation steps.
+
 ## 2. Linux
 
 ### A. Professional Compilers

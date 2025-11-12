@@ -1,7 +1,22 @@
 # Installing Latest C/C++ Compiler on Windows 11 (Quick Methods)
 
-## 0. Using Mega for Mingw-64 File 
-[Download it here](https://mega.nz/file/QwR2GYTb#vcgh-6GKiYQDZFDovdRbq__Pr-mlTDv3LL0EmVgtBpg)
+## 0. Using WinLibs (Prebuilt GCC/Clang) for Windows
+For a hassle-free experience, you can use [WinLibs](https://winlibs.com/).
+[Download it here](https://winlibs.com/)
+
+- Use **UCRT runtime** version for best compatibility. 
+or 
+- Use **MSVCRT runtime** version if you need compatibility with older Windows versions.
+
+Go to the Release versions section at scroll down and download the latest archive.
+
+Example :
+```
+GCC 15.2.0 (with POSIX threads) + MinGW-w64 13.0.0 (UCRT) - release 3   (LATEST)
+Win32 (without LLVM/Clang/LLD/LLDB): 7-Zip archive* | Zip archive
+Win64 (without LLVM/Clang/LLD/LLDB): 7-Zip archive* | Zip archive
+```
+Download Win32 or Win64 version based on your system architecture.
 
 This is a C/C++ compiler. Simply download, extract, and use it without hassle. Just copy it to the `C drive`, add the `bin folder` to your system `PATH`, and start coding.
 
@@ -50,15 +65,19 @@ choco install visualstudio2022buildtools
 - Automatic PATH setup.
 
 - Easy to update later with:
-  ```
-  winget upgrade --all
-  ``` 
 
+---
+```
+winget upgrade --all
+```
 or 
 
 ```
 choco upgrade all
 ```
+## 3. Use Code::Blocks IDE (with built-in MinGW)
+[Download Code::Blocks](http://www.codeblocks.org/downloads/26) with MinGW included.
+
 
 If you want, I can also prepare a **single combined `winget` script** in Markdown that installs GCC, Clang, and MSVC all at once so you have every major compiler ready. That way you’re set for any C/C++ project on Windows 11.
 
