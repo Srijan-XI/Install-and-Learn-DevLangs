@@ -81,3 +81,9 @@ choco upgrade all
 
 If you want, I can also prepare a **single combined `winget` script** in Markdown that installs GCC, Clang, and MSVC all at once so you have every major compiler ready. That way you’re set for any C/C++ project on Windows 11.
 
+Winget script example:
+```powershell
+winget install codeblocks.codeblocks
+```
+
+
