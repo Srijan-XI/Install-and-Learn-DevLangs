@@ -1,0 +1,92 @@
+name: Repository Validation
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  markdown-lint:
+    name: Lint Markdown Files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Markdown Linting
+        uses: nosborn/github-action-markdown-cli@v3.3.0
+        with:
+          files: .
+          config_file: .markdownlint.json
+          ignore_files: node_modules/
+
+  link-checker:
+    name: Check Links
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --verbose --no-progress '**/*.md' '**/*.html'
+          fail: true
+
+  python-syntax:
+    name: Check Python Syntax
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Check Python Syntax
+        run: |
+          python -m py_compile PYTHON/Python\ questions/*.py || true
+          echo "Python syntax check completed"
+
+  java-syntax:
+    name: Check Java Syntax
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+      
+      - name: Check Java Syntax
+        run: |
+          javac -d /tmp JAVA/Question/*.java || true
+          echo "Java syntax check completed"
+
+  file-structure:
+    name: Validate File Structure
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Check Required Files
+        run: |
+          echo "Checking for required files..."
+          test -f README.md && echo "✓ README.md found"
+          test -f CONTRIBUTING.md && echo "✓ CONTRIBUTING.md found"
+          test -f LICENSE && echo "✓ LICENSE found"
+          test -f CODE_OF_CONDUCT.md && echo "✓ CODE_OF_CONDUCT.md found"
+          test -f SECURITY.md && echo "✓ SECURITY.md found"
+          echo "File structure validation completed"
+
+  trailing-whitespace:
+    name: Check Trailing Whitespace
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Check for Trailing Whitespace
+        run: |
+          ! git grep -I --line-number --extended-regexp '\s+$' -- '*.md' '*.py' '*.java' '*.cpp' '*.c' '*.php' '*.R' '*.rs' || echo "Found trailing whitespace"

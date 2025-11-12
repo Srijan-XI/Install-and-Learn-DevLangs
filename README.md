@@ -1,5 +1,15 @@
 # 🚀 Install and Learn Programming Languages
 
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Languages](https://img.shields.io/badge/Languages-9-blue.svg)]()
+[![Questions](https://img.shields.io/badge/Practice%20Questions-91%2B-green.svg)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Maintained](https://img.shields.io/badge/Maintained-Yes-success.svg)]()
+
+</div>
+
 Welcome to the **Install and Learn DevLangs** repository!  
 This repository provides **step-by-step guides** and **practical examples** to help you install, configure, and start using various programming languages across different platforms (Windows, Linux, macOS).
 
@@ -10,12 +20,30 @@ Whether you're a beginner or setting up a fresh dev environment, this guide has 
 ## 📋 Table of Contents
 
 - [What You'll Find Here](#-what-youll-find-here)
+- [Quick Start](#-quick-start)
 - [Supported Languages](#-supported-languages)
 - [Repository Structure](#-repository-structure)
 - [Getting Started](#-getting-started)
 - [How to Use This Repository](#-how-to-use-this-repository)
 - [Contributing](#-contributing)
+- [Community](#-community)
+- [Resources](#-resources)
+- [Roadmap](#-roadmap)
 - [License](#-license)
+- [Support](#-show-your-support)
+
+---
+
+## ⚡ Quick Start
+
+**New here? Get coding in 5 minutes!**
+
+👉 Check out our [**QUICKSTART.md**](QUICKSTART.md) for the fastest way to:
+- Install any language
+- Run your first program
+- Start learning immediately
+
+Or jump directly to a language folder and follow the installation guide!
 
 ---
 
@@ -42,6 +70,9 @@ This repository currently includes guides and practice questions for:
 | **PHP** 🐘 | ✅ Available | 10 Questions | Active |
 | **R** 📊 | ✅ Available | 10 Questions | Active |
 | **Rust** 🦀 | ✅ Available | Multiple Questions | Active |
+| **Go (Golang)** 🐹 | ✅ Available | 10 Questions | Active |
+| **TypeScript** 📘 | ✅ Available | 10 Questions | Active |
+| **SQL** 🗄️ | ✅ Available | 10 Questions + 5 DB Guides | Active |
 
 ---
 
@@ -65,6 +96,9 @@ cd "C & C++"/     # For C/C++
 cd PHP/           # For PHP
 cd R/             # For R
 cd RUST/          # For Rust
+cd Golang/        # For Go (Golang)
+cd TypeScript/    # For TypeScript
+cd SQL/           # For SQL (MySQL, PostgreSQL, MongoDB, Redis, DynamoDB)
 ```
 
 ### 3. Follow the Installation Guide
@@ -103,18 +137,86 @@ After installation, explore the practice questions folder to test your knowledge
 
 ## 🤝 Contributing
 
-We welcome contributions! Whether you want to:
-- Add a new programming language
-- Improve existing guides
-- Add more practice questions
-- Fix bugs or typos
-- Enhance documentation
+We welcome contributions from everyone! 🎉
 
-Please read our [**CONTRIBUTING.md**](CONTRIBUTING.md) for detailed guidelines on:
-- How to contribute
-- Pull request process
-- Issue reporting guidelines
-- Coding standards
+### Ways to Contribute
+
+- 🌐 Add a new programming language
+- 📝 Improve existing guides
+- ❓ Add more practice questions
+- 🐛 Fix bugs or typos
+- 📚 Enhance documentation
+- 💡 Suggest new features
+- 🔍 Review pull requests
+
+### Quick Start for Contributors
+
+1. Read our [**CONTRIBUTING.md**](CONTRIBUTING.md) for detailed guidelines
+2. Check [**open issues**](https://github.com/Srijan-XI/Install-and-Learn-DevLangs/issues) for tasks
+3. Follow our [**Code of Conduct**](CODE_OF_CONDUCT.md)
+4. Submit your [**Pull Request**](.github/PULL_REQUEST_TEMPLATE.md)
+
+### Contribution Guidelines
+
+- ✅ Follow the existing code style and structure
+- ✅ Test all code examples before submitting
+- ✅ Update documentation as needed
+- ✅ Use descriptive commit messages
+- ✅ One feature/fix per pull request
+
+See [**CONTRIBUTORS.md**](CONTRIBUTORS.md) for our list of amazing contributors!
+
+---
+
+## 🌍 Community
+
+### Get Help
+
+- 📖 Check our [**FAQ**](FAQ.md) for common questions
+- 💬 Open a [**Discussion**](https://github.com/Srijan-XI/Install-and-Learn-DevLangs/discussions)
+- 🐛 Report bugs via [**Issues**](https://github.com/Srijan-XI/Install-and-Learn-DevLangs/issues)
+- 📧 Contact maintainers through GitHub
+
+### Community Guidelines
+
+- 🤝 Be respectful and inclusive
+- 💡 Help others learn and grow
+- 🎯 Stay on topic and constructive
+- 📚 Share knowledge and resources
+
+Read our full [**Code of Conduct**](CODE_OF_CONDUCT.md).
+
+---
+
+## 📚 Resources
+
+Looking for more learning materials? Check out our comprehensive [**RESOURCES.md**](RESOURCES.md) featuring:
+
+- 📖 Official documentation links
+- 📚 Recommended books (free & paid)
+- 🎓 Online courses and tutorials
+- 🎥 YouTube channels
+- 💻 Practice platforms
+- 🏆 Interview preparation resources
+
+---
+
+## 🗺️ Roadmap
+
+Curious about what's next? Check our [**ROADMAP.md**](ROADMAP.md) to see:
+
+- 🎯 Upcoming features and languages
+- 📅 Development timeline
+- 💡 How you can help shape the future
+- 📊 Project milestones and goals
+
+We're planning to add JavaScript, Go, SQL, and much more!
+
+---
+
+## 🔒 Security
+
+Found a security vulnerability? Please review our [**SECURITY.md**](SECURITY.md) for responsible disclosure guidelines.
 
 ---
 
@@ -135,20 +237,42 @@ Just remember to include the original license and copyright notice.
 ## 🌟 Show Your Support
 
 If you find this repository helpful, please consider:
-- ⭐ Starring this repository
-- 🍴 Forking it for your own use
-- 📢 Sharing it with others
-- 🤝 Contributing to make it better
+
+- ⭐ **Star this repository** to show your support
+- 🍴 **Fork it** for your own customization
+- 📢 **Share it** with friends and colleagues
+- 🤝 **Contribute** to make it even better
+- 💬 **Spread the word** on social media
+
+### Quick Links
+
+- 🐛 [Report a Bug](.github/ISSUE_TEMPLATE/bug_report.md)
+- ✨ [Request a Feature](.github/ISSUE_TEMPLATE/feature_request.md)
+- ❓ [Ask a Question](.github/ISSUE_TEMPLATE/question.md)
+- 📝 [Submit a PR](.github/PULL_REQUEST_TEMPLATE.md)
 
 ---
 
-## 📧 Contact & Support
+## 📊 Project Stats
 
-Have questions or suggestions? Feel free to:
-- Open an issue on GitHub
-- Submit a pull request
-- Check the [CONTRIBUTING.md](CONTRIBUTING.md) for more ways to get involved
+![GitHub stars](https://img.shields.io/github/stars/Srijan-XI/Install-and-Learn-DevLangs?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Srijan-XI/Install-and-Learn-DevLangs?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/Srijan-XI/Install-and-Learn-DevLangs?style=social)
 
 ---
 
-**Happy Coding! 💻🚀**
+## 📜 Changelog
+
+See [**CHANGELOG.md**](CHANGELOG.md) for a list of notable changes to this project.
+
+---
+
+<div align="center">
+
+### 💻 Happy Coding! 🚀
+
+**Made with ❤️ for developers by developers**
+
+[⬆ Back to Top](#-install-and-learn-programming-languages)
+
+</div>

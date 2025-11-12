@@ -1,0 +1,133 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+target/
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# C/C++
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# PHP
+vendor/
+composer.phar
+composer.lock
+.env.local
+.env.*.local
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Rust
+target/
+Cargo.lock
+**/*.rs.bk
+
+# Node.js (if added in future)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs and Databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Compiled Documentation
+*.pdf
+*.docx
+
+# Security - Never commit these
+*.key
+*.pem
+*.cert
+secrets/
+.env
+.env.local
+credentials.json
