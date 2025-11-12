@@ -45,59 +45,6 @@ This repository currently includes guides and practice questions for:
 
 ---
 
-## 📂 Repository Structure
-
-```
-Install-and-Learn-DevLangs/
-│
-├── PYTHON/
-│   ├── Installation-Guide.md
-│   ├── Python-Packages.md
-│   └── Python questions/
-│       ├── q01_hello_world.py
-│       ├── q02_add_numbers.py
-│       └── ... (21 total questions)
-│
-├── JAVA/
-│   ├── Installation-and-Usage-Guide.md
-│   └── Question/
-│       ├── Q1_Beginner_HelloWorld.java
-│       └── ... (10 total questions)
-│
-├── C & C++/
-│   ├── Installation-and-Usage-Guide.md
-│   ├── Guide-part02.md
-│   └── questions of c & cpp/
-│       ├── Q1-FibonacciSeries.C
-│       └── ... (10+ questions)
-│
-├── PHP/
-│   ├── Installation-and-Use-Guide.md
-│   ├── PHPConfiguration.md
-│   ├── Troubleshooting.md
-│   └── Question/
-│       ├── hello_world.php
-│       └── ... (10 questions)
-│
-├── R/
-│   ├── Installation-and-Usage-Guide.md
-│   └── R programming questions/
-│       ├── Q1_addition.R
-│       └── ... (10 questions)
-│
-├── RUST/
-│   ├── Guide&Practice-Questions.md
-│   ├── Guide-part-02.md
-│   └── Qustions/
-│       ├── armstrong.rs
-│       └── ... (multiple questions)
-│
-├── CONTRIBUTING.md
-└── README.md
-```
-
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
