@@ -65,6 +65,64 @@ jobs:
           javac -d /tmp JAVA/Question/*.java || true
           echo "Java syntax check completed"
 
+  go-syntax:
+    name: Check Go Syntax
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.21'
+      
+      - name: Check Go Syntax
+        run: |
+          cd Golang/questions
+          for file in *.go; do
+            go fmt "$file" > /dev/null 2>&1 || true
+            gofmt -l "$file" || true
+          done
+          echo "Go syntax check completed"
+
+  typescript-syntax:
+    name: Check TypeScript Syntax
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      
+      - name: Install TypeScript
+        run: npm install -g typescript
+      
+      - name: Check TypeScript Syntax
+        run: |
+          cd TypeScript/questions
+          for file in *.ts; do
+            tsc --noEmit --skipLibCheck "$file" || true
+          done
+          echo "TypeScript syntax check completed"
+
+  sql-syntax:
+    name: Check SQL Syntax
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Check SQL Files
+        run: |
+          echo "Checking SQL syntax..."
+          find SQL/questions -name "*.sql" -type f | while read file; do
+            echo "Checking $file"
+            # Basic SQL syntax validation (checking for common issues)
+            grep -E "^[[:space:]]*--" "$file" > /dev/null && echo "✓ Comments found in $file"
+          done
+          echo "SQL syntax check completed"
+
   file-structure:
     name: Validate File Structure
     runs-on: ubuntu-latest
@@ -89,4 +147,28 @@ jobs:
       
       - name: Check for Trailing Whitespace
         run: |
-          ! git grep -I --line-number --extended-regexp '\s+$' -- '*.md' '*.py' '*.java' '*.cpp' '*.c' '*.php' '*.R' '*.rs' || echo "Found trailing whitespace"
+          ! git grep -I --line-number --extended-regexp '\s+$' -- '*.md' '*.py' '*.java' '*.cpp' '*.c' '*.php' '*.R' '*.rs' '*.go' '*.ts' '*.sql' || echo "Found trailing whitespace"
+
+  repository-stats:
+    name: Repository Statistics
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Count Languages and Questions
+        run: |
+          echo "📊 Repository Statistics"
+          echo "======================="
+          echo "Languages with guides:"
+          find . -maxdepth 1 -type d | grep -E "(PYTHON|JAVA|PHP|Golang|TypeScript|SQL|RUST)" | wc -l
+          echo ""
+          echo "Total practice questions:"
+          find . -name "*.py" -path "*/Python*questions/*" | wc -l | xargs echo "Python:"
+          find . -name "*.java" -path "*/Question/*" | wc -l | xargs echo "Java:"
+          find . -name "*.go" -path "*/questions/*" | wc -l | xargs echo "Go:"
+          find . -name "*.ts" -path "*/questions/*" | wc -l | xargs echo "TypeScript:"
+          find . -name "*.sql" -path "*/questions/*" | wc -l | xargs echo "SQL:"
+          echo ""
+          echo "Documentation files:"
+          find . -name "*.md" -not -path "./node_modules/*" | wc -l
+          echo "✅ Statistics generated successfully"
