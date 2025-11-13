@@ -38,7 +38,7 @@
 	];
 
   const quickLinks = [
-    { label: 'README', path: ['README.md'] },
+    { label: 'Contact', url: 'pages/contact.html' },
     { label: 'Quickstart', path: ['QUICKSTART.md'] },
     { label: 'Documentation', path: ['DOCUMENTATION.md'] },
     { label: 'Community', url: 'pages/community.html' },

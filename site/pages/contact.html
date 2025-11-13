@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Support — DevSphere</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Contact Page Specific Styles */
+        .contact-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .contact-header {
+            text-align: center;
+            margin-bottom: 48px;
+            background: var(--card);
+            padding: 32px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            border-top: 4px solid var(--primary);
+        }
+        
+        .contact-header h1 {
+            font-size: 2.5rem;
+            margin: 0 0 12px 0;
+            color: var(--text);
+        }
+        
+        .contact-header p {
+            font-size: 1.1rem;
+            color: var(--muted);
+            margin: 0;
+        }
+        
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 32px;
+            margin-bottom: 48px;
+        }
+        
+        @media (max-width: 968px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .contact-form-section {
+            background: var(--card);
+            padding: 32px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        
+        .contact-form-section h2 {
+            font-size: 1.5rem;
+            margin: 0 0 24px 0;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+            color: var(--text);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text);
+        }
+        
+        .form-input,
+        .form-select,
+        .form-textarea {
+            width: 100%;
+            padding: 12px;
+            background: var(--card2);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-family: inherit;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+        
+        .form-input:focus,
+        .form-select:focus,
+        .form-textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3);
+        }
+        
+        .form-textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .form-button {
+            background: var(--primary);
+            color: #ffffff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .form-button:hover {
+            background: var(--primary-hover);
+            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+            transform: translateY(-1px);
+        }
+        
+        .success-message {
+            margin-top: 24px;
+            padding: 16px;
+            background: var(--ok);
+            color: #ffffff;
+            border-radius: 8px;
+            display: none;
+        }
+        
+        .success-message.show {
+            display: block;
+        }
+        
+        .success-message p {
+            margin: 0;
+        }
+        
+        .success-message p:first-child {
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+        
+        .community-section {
+            background: var(--card);
+            padding: 24px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--warn);
+        }
+        
+        .community-section h2 {
+            font-size: 1.5rem;
+            margin: 0 0 16px 0;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--warn);
+            color: var(--text);
+        }
+        
+        .community-section > p {
+            color: var(--muted);
+            margin: 0 0 20px 0;
+        }
+        
+        .community-links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        
+        .community-link {
+            display: flex;
+            align-items: center;
+            padding: 12px;
+            background: var(--card2);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.2s ease;
+        }
+        
+        .community-link:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.2);
+        }
+        
+        .community-link-icon {
+            font-size: 1.5rem;
+            margin-right: 12px;
+        }
+        
+        .community-link-content {
+            flex: 1;
+        }
+        
+        .community-link-title {
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        .community-link-desc {
+            font-size: 0.875rem;
+            color: var(--muted);
+            margin-top: 2px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="brand">
+                <span class="logo">💻</span>
+                <div>
+                    <h1><a href="../index.html" style="color:inherit;text-decoration:none">DevSphere</a></h1>
+                    <p class="sub">Contact & Support</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <a href="../index.html" class="btn">← Back</a>
+                <button id="btn-theme" class="btn ghost" aria-label="Toggle theme">🌓</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="contact-container">
+        <header class="contact-header">
+            <h1>✉️ Get In Touch</h1>
+            <p>We value your questions, feedback, and contributions. Here's how you can reach us.</p>
+        </header>
+
+        <div class="contact-grid">
+            <!-- Column 1: Direct Contact Form -->
+            <div class="contact-form-section">
+                <h2>Send a Quick Message</h2>
+                <form id="contactForm" onsubmit="handleFormSubmission(event)">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Your Name</label>
+                        <input type="text" id="name" name="name" required class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" required class="form-input">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <select id="subject" name="subject" class="form-select" required>
+                            <option value="" disabled selected>Select a topic</option>
+                            <option value="bug">Report a Bug/Typo</option>
+                            <option value="feature">Suggest a New Feature/Language</option>
+                            <option value="question">General Question/Inquiry</option>
+                            <option value="feedback">Feedback on Content Quality</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" rows="5" required class="form-textarea"></textarea>
+                    </div>
+
+                    <button type="submit" class="form-button">Submit Message</button>
+                </form>
+
+                <!-- Success Message Display -->
+                <div id="successMessage" class="success-message">
+                    <p>Thank you for your message!</p>
+                    <p>Since this is a client-side demo, your message was simulated. We encourage you to use the community channels for actionable issues and contributions!</p>
+                </div>
+            </div>
+
+            <!-- Column 2: Community & Support Links -->
+            <div class="community-section">
+                <h2>Community & Support</h2>
+                <p>The best way to get help, report issues, or contribute is through our open-source platforms.</p>
+
+                <div class="community-links">
+                    <a href="mailto:srijansah11@outlook.com" class="community-link">
+                        <span class="community-link-icon">✉️</span>
+                        <div class="community-link-content">
+                            <div class="community-link-title">Email Us Directly</div>
+                            <div class="community-link-desc">srijansah11@outlook.com</div>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/Srijan-XI/Install-and-Learn-DevLangs/issues" target="_blank" rel="noopener" class="community-link">
+                        <span class="community-link-icon">🐛</span>
+                        <div class="community-link-content">
+                            <div class="community-link-title">Report an Issue / Bug</div>
+                            <div class="community-link-desc">For errors in guides or questions.</div>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/Srijan-XI/Install-and-Learn-DevLangs/discussions" target="_blank" rel="noopener" class="community-link">
+                        <span class="community-link-icon">💬</span>
+                        <div class="community-link-content">
+                            <div class="community-link-title">Ask a General Question</div>
+                            <div class="community-link-desc">Join our community discussions.</div>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/Srijan-XI/Install-and-Learn-DevLangs.git/pulls" class="community-link">
+                        <span class="community-link-icon">💡</span>
+                        <div class="community-link-content">
+                            <div class="community-link-title">Submit a Contribution</div>
+                            <div class="community-link-desc">Fork the repo and submit a PR!</div>
+                        </div>
+                    </a>
+
+                    <a href="https://stackoverflow.com/" target="_blank" rel="noopener" class="community-link">
+                        <span class="community-link-icon">❓</span>
+                        <div class="community-link-content">
+                            <div class="community-link-title">Search Stack Overflow</div>
+                            <div class="community-link-desc">Find answers from the wider dev community.</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <small>DevSphere © 2025</small>
+            <div class="footer-links">
+                <a href="../index.html">Home</a>
+                <a href="https://github.com/Srijan-XI/Install-and-Learn-DevLangs" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function handleFormSubmission(event) {
+            event.preventDefault();
+            
+            const form = document.getElementById('contactForm');
+            const successMessage = document.getElementById('successMessage');
+
+            form.style.display = 'none';
+            successMessage.classList.add('show');
+
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+
+        // Theme toggle functionality
+        const btn = document.getElementById('btn-theme');
+        const key = 'il-devlangs-theme';
+        const set = (val) => {
+            document.body.classList.toggle('light', val === 'light');
+            localStorage.setItem(key, val);
+        };
+        const stored = localStorage.getItem(key);
+        if (stored) set(stored); else set('dark');
+        btn.addEventListener('click', () => {
+            const cur = document.body.classList.contains('light') ? 'light' : 'dark';
+            set(cur === 'light' ? 'dark' : 'light');
+        });
+    </script>
+</body>
+</html>
