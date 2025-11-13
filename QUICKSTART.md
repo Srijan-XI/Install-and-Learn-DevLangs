@@ -87,6 +87,7 @@ Install-and-Learn-DevLangs/
 ├── PHP/                 # PHP guides & questions
 ├── R/                   # R guides & questions
 ├── RUST/                # Rust guides & questions
+├── Docker/              # Docker containerization guide
 │
 ├── README.md            # Main documentation
 ├── CONTRIBUTING.md      # How to contribute
@@ -109,6 +110,7 @@ Install-and-Learn-DevLangs/
 - ✅ Complete intermediate questions
 - ✅ Read about data structures
 - ✅ Start a small project
+- ✅ Learn Docker basics (optional)
 - ✅ Join community discussions
 
 ### Month 2-3: Advanced Topics

@@ -251,6 +251,49 @@ A curated collection of high-quality learning resources for each programming lan
 
 ---
 
+## 🐳 Docker
+
+### Official Documentation
+- [Docker Documentation](https://docs.docker.com/) - Comprehensive official docs
+- [Docker Hub](https://hub.docker.com/) - Container image registry
+- [Docker Compose Docs](https://docs.docker.com/compose/) - Multi-container applications
+
+### Books
+- **Free**:
+  - [Docker Documentation](https://docs.docker.com/get-started/) - Official getting started
+  - [Docker Curriculum](https://docker-curriculum.com/) - Comprehensive tutorial
+  - [Docker for Beginners](https://github.com/docker/labs/tree/master/beginner) - GitHub labs
+
+- **Paid**:
+  - Docker Deep Dive by Nigel Poulton
+  - Docker in Action by Jeff Nickoloff
+  - The Docker Book by James Turnbull
+
+### Online Courses
+- [Play with Docker Classroom](https://training.play-with-docker.com/) - Interactive learning
+- [Docker Mastery (Udemy)](https://www.udemy.com/course/docker-mastery/)
+- [Docker for Developers (Pluralsight)](https://www.pluralsight.com/paths/docker)
+- [Learn Docker (Codecademy)](https://www.codecademy.com/learn/learn-docker)
+
+### YouTube Channels
+- [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana)
+- [Traversy Media](https://www.youtube.com/c/TraversyMedia)
+- [freeCodeCamp Docker](https://www.youtube.com/watch?v=fqMOX6JJhGo)
+- [Docker Official](https://www.youtube.com/user/dockerrun)
+
+### Practice Platforms
+- [Play with Docker](https://labs.play-with-docker.com/) - Browser-based Docker playground
+- [Katacoda Docker Scenarios](https://www.katacoda.com/courses/docker)
+- [Docker Labs](https://github.com/docker/labs)
+
+### Related Tools
+- **Kubernetes**: [kubernetes.io](https://kubernetes.io/)
+- **Docker Compose**: [docs.docker.com/compose](https://docs.docker.com/compose/)
+- **Portainer**: [portainer.io](https://www.portainer.io/)
+- **Harbor**: [goharbor.io](https://goharbor.io/)
+
+---
+
 ## 🌐 General Programming Resources
 
 ### Multi-Language Platforms

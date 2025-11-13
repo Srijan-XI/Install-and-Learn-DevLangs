@@ -12,6 +12,8 @@ To become the most comprehensive, beginner-friendly repository for learning prog
 - ✅ 10 programming languages (Python, Java, C/C++, PHP, R, Rust, Go, JavaScript, TypeScript, SQL)
 - ✅ 116+ practice questions
 - ✅ JavaScript framework guides (Node.js, Express.js, Next.js)
+- ✅ Docker containerization guide (DevOps tool)
+- ✅ Installation guides for all major platforms
 - ✅ Installation guides for all major platforms
 - ✅ MIT License
 - ✅ Contributing guidelines

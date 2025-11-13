@@ -53,6 +53,7 @@ Or jump directly to a language folder and follow the installation guide!
 - ✅ **Usage Examples** – Basic syntax and starter scripts  
 - ✅ **Practice Questions** – Hands-on coding exercises (Beginner to Advanced)  
 - ✅ **Framework Guides** – Introduction to popular frameworks (Express.js, Next.js, Node.js)  
+- ✅ **DevOps Tools** – Docker containerization guide  
 - ✅ **Platform Coverage** – Instructions for Windows, Linux, and macOS  
 - ✅ **Tooling Help** – IDE setup, compilers, package managers  
 - ✅ **Troubleshooting Tips** – Common issues and their fixes  
@@ -75,6 +76,12 @@ This repository currently includes guides and practice questions for:
 | **JavaScript** 🟨 | ✅ Available | 25 Questions + 3 Frameworks | Active |
 | **TypeScript** 📘 | ✅ Available | 10 Questions | Active |
 | **SQL** 🗄️ | ✅ Available | 10 Questions + 5 DB Guides | Active |
+
+### DevOps & Tools
+
+| Tool | Guide Available | Topics Covered | Status |
+|------|----------------|----------------|--------|
+| **Docker** 🐳 | ✅ Available | Containers, Images, Compose, Networking | Active |
 
 ---
 
@@ -102,6 +109,7 @@ cd Golang/        # For Go (Golang)
 cd JavaScript/    # For JavaScript (Node.js, Express.js, Next.js)
 cd TypeScript/    # For TypeScript
 cd SQL/           # For SQL (MySQL, PostgreSQL, MongoDB, Redis, DynamoDB)
+cd Docker/        # For Docker containerization
 ```
 
 ### 3. Follow the Installation Guide

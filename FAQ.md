@@ -57,6 +57,7 @@ Popular choices include:
 - **PHP**: VS Code, PhpStorm
 - **R**: RStudio
 - **Rust**: VS Code with rust-analyzer, IntelliJ IDEA with Rust plugin
+- **Docker**: Docker Desktop, VS Code with Docker extension, Portainer
 
 ---
 
@@ -187,6 +188,7 @@ Recommended learning path for beginners:
 2. **JavaScript** - Essential for web development
 3. **Java** or **C++** - Learn OOP concepts
 4. **Rust** or **Go** - Modern systems programming
+5. **Docker** - Containerization and DevOps (complements any language)
 
 ### How long does it take to learn a language?
 

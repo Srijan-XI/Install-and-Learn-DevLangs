@@ -16,6 +16,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.2.0] - 2025-11-13
 
 ### Added
+- **Docker** comprehensive introduction guide covering:
+  - Core concepts (Containers, Images, Dockerfile, Docker Engine)
+  - Architecture and Docker vs VMs comparison
+  - Installation instructions for Windows, macOS, and Linux
+  - Complete command reference (containers, images, system)
+  - Dockerfile examples and multi-stage builds
+  - Docker Compose for multi-container applications
+  - Volumes, networking, and data persistence
+  - Best practices for security and optimization
+  - Real-world examples (WordPress, Node.js apps)
 - **JavaScript** complete practice question series (25 questions)
 - **JavaScript** questions covering beginner to expert topics:
   - Q1-Q5: Beginner (Hello World, Variables, Operators, Control Flow, Loops)

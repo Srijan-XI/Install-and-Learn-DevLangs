@@ -6,6 +6,13 @@ Welcome to the complete documentation for the Install and Learn DevLangs project
 
 ## 📚 Core Documentation
 
+### Summary
+- **10 Programming Languages**: Python, Java, C/C++, PHP, R, Rust, Go, JavaScript, TypeScript, SQL
+- **131+ Practice Questions**: Beginner to Expert levels
+- **DevOps Tools**: Docker containerization guide
+- **Framework Guides**: Node.js, Express.js, Next.js
+- **Database Guides**: MySQL, PostgreSQL, MongoDB, Redis, DynamoDB
+
 ### Getting Started
 - **[README.md](README.md)** - Project overview, features, and main documentation
 - **[QUICKSTART.md](QUICKSTART.md)** - Get up and running in 5 minutes
@@ -69,6 +76,49 @@ Welcome to the complete documentation for the Install and Learn DevLangs project
 - **Practice**: `RUST/Qustions/` (Multiple questions)
 - **Topics**: Ownership, Borrowing, Pattern Matching, Error Handling
 
+### Go (Golang) 🐹
+- **Location**: `/Golang/`
+- **Installation**: `Golang/installation-guide-for-go.md`
+- **Practice**: `Golang/questions/` (10 questions)
+- **Topics**: Basics, Concurrency, Structs, File Operations
+
+### JavaScript 🟨
+- **Location**: `/JavaScript/`
+- **Installation**: `JavaScript/install&usage.md`
+- **Introduction**: `JavaScript/Introduction.md`
+- **Practice**: `JavaScript/questions/` (25 questions)
+- **Levels**: Beginner (Q1-Q5), Intermediate (Q6-Q12), Advanced (Q13-Q20), Expert (Q21-Q25)
+- **Frameworks**:
+  - **Node.js**: `JavaScript/NodeJs/intro.md`
+  - **Express.js**: `JavaScript/ExpressJs/intro.md`
+  - **Next.js**: `JavaScript/NextJs/intro.md`
+- **Topics**: Variables, Functions, Promises, Async/Await, DOM, Design Patterns, Security
+
+### TypeScript 📘
+- **Location**: `/TypeScript/`
+- **Installation**: `TypeScript/install&usage.md`
+- **Introduction**: `TypeScript/Introduction.md`
+- **Practice**: `TypeScript/questions/` (10 questions)
+- **Topics**: Types, Interfaces, Generics, Classes, Advanced Types
+
+### SQL 🗄️
+- **Location**: `/SQL/`
+- **Installation**: `SQL/install&usage.md`
+- **Introduction**: `SQL/Introduction.md`
+- **Practice**: `SQL/questions/` (10 questions)
+- **Database Guides**:
+  - **MySQL**: `SQL/MySQL/` (Introduction & Installation)
+  - **PostgreSQL**: `SQL/PostgreSQL/` (Introduction & Installation)
+  - **MongoDB**: `SQL/MongoDB/` (Introduction & Installation)
+  - **Redis**: `SQL/Redis/` (Introduction & Installation)
+  - **DynamoDB**: `SQL/DynamoDB/` (Introduction & AWS Guide)
+- **Topics**: SELECT, JOIN, Aggregate Functions, Subqueries, Transactions
+
+### Docker 🐳
+- **Location**: `/Docker/`
+- **Introduction**: `Docker/intro.md`
+- **Topics**: Containers, Images, Dockerfile, Docker Compose, Volumes, Networking, Best Practices
+
 ---
 
 ## 🔧 GitHub Templates
@@ -90,7 +140,11 @@ Welcome to the complete documentation for the Install and Learn DevLangs project
 
 - **[.gitignore](.gitignore)** - Files to ignore in version control
 - **[.editorconfig](.editorconfig)** - Consistent coding style across editors
-- **[.markdownlint.json](.markdownlint.json)** - Markdown linting rules
+
+### Language-Specific Config
+- **JavaScript**: `package.json`, `tsconfig.json` (TypeScript)
+- **Docker**: `Dockerfile`, `docker-compose.yml`
+- **SQL**: Database configuration files
 
 ---
 
@@ -143,11 +197,15 @@ Welcome to the complete documentation for the Install and Learn DevLangs project
 |----------|----------|--------------|----------|-------|
 | Python   | 10       | 6            | 5        | 21    |
 | Java     | 3        | 4            | 3        | 10    |
-| C/C++    | 3        | 4            | 3+       | 10+   |
+| C/C++    | 5        | 7            | 13       | 25    |
 | PHP      | 5        | 3            | 2        | 10    |
 | R        | 5        | 3            | 2        | 10    |
 | Rust     | Various  | Various      | Various  | 10+   |
-| **Total**| **26+**  | **20+**      | **15+**  | **61+**|
+| Go       | 3        | 4            | 3        | 10    |
+| JavaScript| 5       | 7            | 13       | 25    |
+| TypeScript| 3       | 4            | 3        | 10    |
+| SQL      | 5        | 3            | 2        | 10    |
+| **Total**| **44+**  | **41+**      | **46+**  | **131+**|
 
 ---
 
@@ -198,7 +256,9 @@ Welcome to the complete documentation for the Install and Learn DevLangs project
 ### Learning Paths
 - [QUICKSTART.md](QUICKSTART.md) for recommended paths
 - [RESOURCES.md](RESOURCES.md) for courses and books
-- Practice questions organized by difficulty
+- Practice questions organized by difficulty (131+ questions)
+- Framework guides (Node.js, Express.js, Next.js)
+- Docker containerization for DevOps
 - [ROADMAP.md](ROADMAP.md) for planned content
 
 ### Project Structure
