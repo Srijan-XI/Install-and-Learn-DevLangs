@@ -129,3 +129,5 @@ secrets/
 .env
 .env.local
 credentials.json
+# Ignore text files
+*.txt
