@@ -1,4 +1,4 @@
-# 🚀 Install and Learn Programming Languages
+# 🚀 DevSphere - Programming Language Learning Hub
 
 <div align="center">
 
@@ -10,7 +10,7 @@
 
 </div>
 
-Welcome to the **Install and Learn DevLangs** repository!  
+Welcome to **DevSphere**!  
 This repository provides **step-by-step guides** and **practical examples** to help you install, configure, and start using various programming languages across different platforms (Windows, Linux, macOS).
 
 Whether you're a beginner or setting up a fresh dev environment, this guide has you covered.
@@ -91,7 +91,7 @@ This repository currently includes guides and practice questions for:
 
 ```bash
 git clone https://github.com/Srijan-XI/Install-and-Learn-DevLangs.git
-cd Install-and-Learn-DevLangs
+cd  Install-and-Learn-DevLangs
 ```
 
 ### 2. Choose Your Language

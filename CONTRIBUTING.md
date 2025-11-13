@@ -1,10 +1,10 @@
-# Contributing to Install and Learn DevLangs
+# Contributing to DevSphere
 
-Thank you for your interest in contributing to this project! We welcome contributions from everyone who wants to help improve our programming language learning resources.
+Thank you for considering contributing to DevSphere! 🎉
 
 ## Table of Contents
 
-- [Contributing to Install and Learn DevLangs](#contributing-to-install-and-learn-devlangs)
+- [Contributing to DevSphere](#contributing-to-devsphere)
   - [Table of Contents](#table-of-contents)
   - [Code of Conduct](#code-of-conduct)
   - [How Can I Contribute?](#how-can-i-contribute)

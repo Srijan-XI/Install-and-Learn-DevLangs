@@ -1,6 +1,6 @@
 # 📖 Documentation Index
 
-Welcome to the complete documentation for the Install and Learn DevLangs project!
+Welcome to the complete documentation for DevSphere!
 
 ---
 

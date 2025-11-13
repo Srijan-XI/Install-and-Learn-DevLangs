@@ -1,6 +1,6 @@
 # Static Site — Repository Info
 
-A lightweight, modern web interface to explore the **Install-and-Learn-DevLangs** repository without visiting GitHub.
+A lightweight, modern web interface to explore the **DevSphere** repository without visiting GitHub.
 
 ## Features
 
