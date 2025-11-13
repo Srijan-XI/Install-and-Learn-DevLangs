@@ -13,6 +13,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Interactive coding challenges
 - Video tutorials for installation
 
+## [1.2.0] - 2025-11-13
+
+### Added
+- **JavaScript** complete practice question series (25 questions)
+- **JavaScript** questions covering beginner to expert topics:
+  - Q1-Q5: Beginner (Hello World, Variables, Operators, Control Flow, Loops)
+  - Q6-Q12: Intermediate (Functions, Arrays, Objects, Destructuring, Promises, Async/Await, Classes)
+  - Q13-Q20: Advanced (Modules, DOM, Events, Fetch API, Error Handling, Regex, JSON, Storage)
+  - Q21-Q25: Expert (Design Patterns, Closures, Prototypes, Performance, Security)
+- **Node.js** comprehensive introduction guide
+- **Express.js** comprehensive introduction guide
+- **Next.js** comprehensive introduction guide
+- Updated README with JavaScript coverage (25 questions + 3 frameworks)
+- Updated language count from 9 to 10
+- Updated practice questions count from 91+ to 116+
+
+### Changed
+- Enhanced README.md with JavaScript framework guides
+- Updated ROADMAP with JavaScript completion status
+
 ## [1.1.0] - 2025-11-13
 
 ### Added

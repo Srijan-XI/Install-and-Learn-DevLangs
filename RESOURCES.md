@@ -171,6 +171,52 @@ A curated collection of high-quality learning resources for each programming lan
 
 ---
 
+## 🟨 JavaScript
+
+### Official Documentation
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Most comprehensive JS reference
+- [JavaScript.info](https://javascript.info/) - Modern JavaScript tutorial
+- [ECMAScript Specification](https://tc39.es/ecma262/) - Official language specification
+
+### Books
+- **Free**:
+  - [Eloquent JavaScript](https://eloquentjavascript.net/) by Marijn Haverbeke
+  - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS) by Kyle Simpson
+  - [JavaScript for Impatient Programmers](https://exploringjs.com/impatient-js/) by Dr. Axel Rauschmayer
+
+- **Paid**:
+  - JavaScript: The Good Parts by Douglas Crockford
+  - Secrets of the JavaScript Ninja by John Resig
+  - Professional JavaScript for Web Developers by Matt Frisbie
+
+### Online Courses
+- [freeCodeCamp JavaScript](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
+- [JavaScript30](https://javascript30.com/) - 30 Day Vanilla JS Challenge
+- [The Odin Project - JavaScript](https://www.theodinproject.com/paths/full-stack-javascript)
+- [Codecademy JavaScript](https://www.codecademy.com/learn/introduction-to-javascript)
+
+### YouTube Channels
+- [Traversy Media](https://www.youtube.com/c/TraversyMedia)
+- [The Net Ninja](https://www.youtube.com/c/TheNetNinja)
+- [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
+- [Fireship](https://www.youtube.com/c/Fireship)
+
+### Practice Platforms
+- [LeetCode JavaScript](https://leetcode.com/)
+- [Codewars JavaScript](https://www.codewars.com/)
+- [JavaScript Quiz](https://javascriptquiz.com/)
+- [Exercism JavaScript](https://exercism.org/tracks/javascript)
+
+### Frameworks & Libraries
+- **Node.js**: [nodejs.org](https://nodejs.org/)
+- **Express.js**: [expressjs.com](https://expressjs.com/)
+- **Next.js**: [nextjs.org](https://nextjs.org/)
+- **React**: [react.dev](https://react.dev/)
+- **Vue**: [vuejs.org](https://vuejs.org/)
+- **Angular**: [angular.io](https://angular.io/)
+
+---
+
 ## 🦀 Rust
 
 ### Official Documentation

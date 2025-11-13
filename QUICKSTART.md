@@ -82,6 +82,7 @@ Install-and-Learn-DevLangs/
 │
 ├── PYTHON/              # Python guides & questions
 ├── JAVA/                # Java guides & questions  
+├── JavaScript/          # JavaScript guides & questions + frameworks
 ├── C & C++/             # C/C++ guides & questions
 ├── PHP/                 # PHP guides & questions
 ├── R/                   # R guides & questions

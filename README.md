@@ -3,8 +3,8 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Languages](https://img.shields.io/badge/Languages-9-blue.svg)]()
-[![Questions](https://img.shields.io/badge/Practice%20Questions-91%2B-green.svg)]()
+[![Languages](https://img.shields.io/badge/Languages-10-blue.svg)]()
+[![Questions](https://img.shields.io/badge/Practice%20Questions-116%2B-green.svg)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-success.svg)]()
 
@@ -52,6 +52,7 @@ Or jump directly to a language folder and follow the installation guide!
 - ✅ **Installation Guides** – Step-by-step setup for each language  
 - ✅ **Usage Examples** – Basic syntax and starter scripts  
 - ✅ **Practice Questions** – Hands-on coding exercises (Beginner to Advanced)  
+- ✅ **Framework Guides** – Introduction to popular frameworks (Express.js, Next.js, Node.js)  
 - ✅ **Platform Coverage** – Instructions for Windows, Linux, and macOS  
 - ✅ **Tooling Help** – IDE setup, compilers, package managers  
 - ✅ **Troubleshooting Tips** – Common issues and their fixes  
@@ -71,6 +72,7 @@ This repository currently includes guides and practice questions for:
 | **R** 📊 | ✅ Available | 10 Questions | Active |
 | **Rust** 🦀 | ✅ Available | Multiple Questions | Active |
 | **Go (Golang)** 🐹 | ✅ Available | 10 Questions | Active |
+| **JavaScript** 🟨 | ✅ Available | 25 Questions + 3 Frameworks | Active |
 | **TypeScript** 📘 | ✅ Available | 10 Questions | Active |
 | **SQL** 🗄️ | ✅ Available | 10 Questions + 5 DB Guides | Active |
 
@@ -97,6 +99,7 @@ cd PHP/           # For PHP
 cd R/             # For R
 cd RUST/          # For Rust
 cd Golang/        # For Go (Golang)
+cd JavaScript/    # For JavaScript (Node.js, Express.js, Next.js)
 cd TypeScript/    # For TypeScript
 cd SQL/           # For SQL (MySQL, PostgreSQL, MongoDB, Redis, DynamoDB)
 ```

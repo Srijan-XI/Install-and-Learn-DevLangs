@@ -9,8 +9,9 @@ To become the most comprehensive, beginner-friendly repository for learning prog
 ## Current Status (v1.0) ✅
 
 ### Completed Features
-- ✅ 9 programming languages (Python, Java, C/C++, PHP, R, Rust, Go, TypeScript, SQL)
-- ✅ 91+ practice questions
+- ✅ 10 programming languages (Python, Java, C/C++, PHP, R, Rust, Go, JavaScript, TypeScript, SQL)
+- ✅ 116+ practice questions
+- ✅ JavaScript framework guides (Node.js, Express.js, Next.js)
 - ✅ Installation guides for all major platforms
 - ✅ MIT License
 - ✅ Contributing guidelines
@@ -27,7 +28,8 @@ To become the most comprehensive, beginner-friendly repository for learning prog
 ## Short Term Goals (Next 3 Months) 🎯
 
 ### New Languages
-- [x] JavaScript/TypeScript ✅
+- [x] JavaScript (with Node.js, Express.js, Next.js) ✅
+- [x] TypeScript ✅
 - [x] Go (Golang) ✅
 - [x] SQL (MySQL, PostgreSQL, MongoDB, Redis, DynamoDB) ✅
 
@@ -159,6 +161,7 @@ Have an idea that's not on the roadmap? We'd love to hear it!
 - ✅ R (Complete)
 - ✅ Rust (Complete)
 - ✅ Go/Golang (Complete)
+- ✅ JavaScript (Complete - 25 questions + 3 frameworks)
 - ✅ TypeScript (Complete)
 - ✅ SQL - MySQL (Complete)
 - ✅ SQL - PostgreSQL (Complete)
@@ -183,6 +186,7 @@ Have an idea that's not on the roadmap? We'd love to hear it!
 
 - **v1.0** (November 2025) - Initial release with 6 languages
 - **v1.1** (November 2025) - Added Go/Golang, TypeScript, and SQL (5 databases)
+- **v1.2** (November 2025) - Added JavaScript (25 questions + Node.js, Express.js, Next.js guides)
 - **v2.0** (Planned) - Interactive features and web interface
 
 ---

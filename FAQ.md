@@ -41,6 +41,7 @@ No prior experience is required for beginner-level content. However, some interm
 Yes! You can use online IDEs like:
 - **Python**: Google Colab, Repl.it
 - **Java**: JDoodle, OnlineGDB
+- **JavaScript**: CodePen, JSFiddle, CodeSandbox, StackBlitz
 - **PHP**: PHPFiddle, 3v4l.org
 - **C/C++**: OnlineGDB, Compiler Explorer
 - **R**: RStudio Cloud
@@ -51,6 +52,7 @@ Yes! You can use online IDEs like:
 Popular choices include:
 - **Python**: VS Code, PyCharm, Jupyter Notebook
 - **Java**: IntelliJ IDEA, Eclipse, VS Code
+- **JavaScript**: VS Code, WebStorm, Sublime Text
 - **C/C++**: VS Code, CLion, Code::Blocks
 - **PHP**: VS Code, PhpStorm
 - **R**: RStudio
