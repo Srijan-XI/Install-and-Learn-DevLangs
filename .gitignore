@@ -109,8 +109,6 @@ package-lock.json
 
 # Logs and Databases
 *.log
-*.sql
-*.sqlite
 *.db
 
 # Temporary Files
