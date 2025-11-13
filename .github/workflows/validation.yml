@@ -131,6 +131,31 @@ jobs:
           fi
           echo "✅ TypeScript syntax check completed"
 
+  javascript-syntax:
+    name: Check JavaScript Syntax
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      
+      - name: Check JavaScript Syntax
+        continue-on-error: true
+        run: |
+          if [ -d "JavaScript/questions" ]; then
+            cd JavaScript/questions
+            for file in *.js; do
+              if [ -f "$file" ]; then
+                node --check "$file" || true
+              fi
+            done
+          fi
+          echo "✅ JavaScript syntax check completed"
+
   sql-syntax:
     name: Check SQL Syntax
     runs-on: ubuntu-latest
@@ -191,7 +216,7 @@ jobs:
           
           echo "Languages with complete guides:"
           count=0
-          for dir in PYTHON JAVA "C & C++" PHP R RUST Golang TypeScript SQL; do
+          for dir in PYTHON JAVA "C & C++" PHP R RUST Golang JavaScript TypeScript SQL; do
             if [ -d "$dir" ]; then
               count=$((count + 1))
               echo "  ✓ $dir"
@@ -200,12 +225,24 @@ jobs:
           echo "Total: $count languages"
           
           echo ""
+          echo "DevOps Tools:"
+          [ -d "Docker" ] && echo "  ✓ Docker (Containerization)"
+          
+          echo ""
           echo "Practice questions per language:"
           [ -d "PYTHON/Python questions" ] && find "PYTHON/Python questions" -name "*.py" 2>/dev/null | wc -l | xargs echo "  Python:" || echo "  Python: 0"
           [ -d "JAVA/Question" ] && find "JAVA/Question" -name "*.java" 2>/dev/null | wc -l | xargs echo "  Java:" || echo "  Java: 0"
+          [ -d "C & C++/questions of c & cpp" ] && find "C & C++/questions of c & cpp" -name "*.c" -o -name "*.cpp" 2>/dev/null | wc -l | xargs echo "  C/C++:" || echo "  C/C++: 0"
           [ -d "Golang/questions" ] && find "Golang/questions" -name "*.go" 2>/dev/null | wc -l | xargs echo "  Go:" || echo "  Go: 0"
+          [ -d "JavaScript/questions" ] && find "JavaScript/questions" -name "*.js" 2>/dev/null | wc -l | xargs echo "  JavaScript:" || echo "  JavaScript: 0"
           [ -d "TypeScript/questions" ] && find "TypeScript/questions" -name "*.ts" 2>/dev/null | wc -l | xargs echo "  TypeScript:" || echo "  TypeScript: 0"
           [ -d "SQL/questions" ] && find "SQL/questions" -name "*.sql" 2>/dev/null | wc -l | xargs echo "  SQL:" || echo "  SQL: 0"
+          
+          echo ""
+          echo "Framework Guides:"
+          [ -f "JavaScript/NodeJs/intro.md" ] && echo "  ✓ Node.js"
+          [ -f "JavaScript/ExpressJs/intro.md" ] && echo "  ✓ Express.js"
+          [ -f "JavaScript/NextJs/intro.md" ] && echo "  ✓ Next.js"
           
           echo ""
           echo "Documentation files:"
