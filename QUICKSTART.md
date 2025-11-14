@@ -88,6 +88,8 @@ Install-and-Learn-DevLangs/
 ├── PHP/                 # PHP guides & questions
 ├── R/                   # R guides & questions
 ├── RUST/                # Rust guides & questions
+├── Bash/                # Bash shell scripting guide & questions
+├── Kql/                 # KQL query language guide & questions
 ├── Docker/              # Docker containerization guide
 ├── Git/                 # Git version control guide
 ├── JenKins/             # Jenkins CI/CD guide

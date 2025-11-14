@@ -16,6 +16,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.3.0] - 2025-11-14
 
 ### Added
+- **Bash** shell scripting guide covering:
+  - Introduction to Bash and shell scripting
+  - Installation and setup across platforms
+  - User guide with basic commands and scripting
+  - File operations and text processing
+  - Variables, control structures, and functions
+  - I/O redirection and process management
+  - 10 practice questions (beginner to advanced)
+  - Best practices and troubleshooting
+- **KQL (Kusto Query Language)** comprehensive guide covering:
+  - Introduction to KQL and Azure services
+  - Query syntax and structure
+  - Operators (where, project, summarize, extend, join)
+  - Filtering and aggregation
+  - Time-based analysis and series
+  - User guide with practical examples
+  - 10 practice queries (basic to complex)
+  - Visualization and best practices
 - **Git** comprehensive version control guide covering:
   - Introduction to Git and version control systems
   - Installation for Windows, macOS, and Linux

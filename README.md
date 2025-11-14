@@ -99,6 +99,8 @@ This repository currently includes guides and practice questions for:
 
 | Tool | Guide Available | Topics Covered | Status |
 |------|----------------|----------------|--------|
+| **Bash** 🐚 | ✅ Available | Shell Scripting, Commands, Automation | Active |
+| **KQL** 📊 | ✅ Available | Azure Queries, Log Analytics, Data Analysis | Active |
 | **GitHub** 🐙 | ✅ Available | Collaboration, Actions, Pull Requests | Active |
 | **Postman** 📮 | ✅ Available | API Testing, Collections, Newman | Active |
 | **Jest** 🃏 | ✅ Available | Testing Framework, Mocking, Coverage | Active |
@@ -130,6 +132,8 @@ cd Golang/               # For Go (Golang)
 cd JavaScript/           # For JavaScript (Node.js, Express.js, Next.js)
 cd TypeScript/           # For TypeScript
 cd SQL/                  # For SQL (MySQL, PostgreSQL, MongoDB, Redis, DynamoDB)
+cd Bash/                 # For Bash shell scripting
+cd Kql/                  # For KQL (Kusto Query Language)
 cd Docker/               # For Docker containerization
 cd Git/                  # For Git version control
 cd JenKins/              # For Jenkins CI/CD

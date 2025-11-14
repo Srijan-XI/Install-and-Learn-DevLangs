@@ -251,6 +251,73 @@ A curated collection of high-quality learning resources for each programming lan
 
 ---
 
+## 🐚 Bash
+
+### Official Documentation
+- [GNU Bash Manual](https://www.gnu.org/software/bash/manual/) - Complete reference
+- [Bash Guide for Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/) - TLDP guide
+- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/) - Advanced topics
+
+### Books
+- **Free**:
+  - [The Linux Command Line](https://linuxcommand.org/tlcl.php) by William Shotts
+  - [Bash Guide](https://mywiki.wooledge.org/BashGuide) - Wiki guide
+  - [Bash Scripting Tutorial](https://ryanstutorials.net/bash-scripting-tutorial/) - Ryan's Tutorials
+
+- **Paid**:
+  - Learning the bash Shell by Cameron Newham
+  - Bash Cookbook by Carl Albing and JP Vossen
+  - Mastering Bash by Giorgio Zarrelli
+
+### Online Courses
+- [Bash Scripting (Linux Academy)](https://www.pluralsight.com/courses/bash-shell-scripting)
+- [Shell Scripting Tutorial (Codecademy)](https://www.codecademy.com/learn/bash-scripting)
+- [Bash Scripting (freeCodeCamp)](https://www.youtube.com/watch?v=tK9Oc6AEnR4)
+
+### YouTube Channels
+- [The Net Ninja](https://www.youtube.com/c/TheNetNinja)
+- [Traversy Media](https://www.youtube.com/c/TraversyMedia)
+- [Learn Linux TV](https://www.youtube.com/c/LearnLinuxtv)
+
+### Practice Platforms
+- [HackerRank Shell](https://www.hackerrank.com/domains/shell)
+- [OverTheWire Bandit](https://overthewire.org/wargames/bandit/) - CLI challenges
+- [Exercism Bash](https://exercism.org/tracks/bash)
+
+---
+
+## 📊 KQL (Kusto Query Language)
+
+### Official Documentation
+- [KQL Documentation](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/) - Official Microsoft docs
+- [KQL Quick Reference](https://docs.microsoft.com/en-us/azure/data-explorer/kql-quick-reference) - Cheat sheet
+- [Azure Monitor Logs](https://docs.microsoft.com/en-us/azure/azure-monitor/logs/get-started-queries) - Log Analytics
+
+### Books
+- **Free**:
+  - [KQL from Scratch](https://github.com/rod-trent/KQL) - GitHub resource
+  - [Must Learn KQL](https://github.com/rod-trent/MustLearnKQL) - Free learning series
+
+- **Paid**:
+  - Azure Data Explorer by Jason Ge (available resources)
+
+### Online Courses
+- [KQL Tutorial (Microsoft Learn)](https://docs.microsoft.com/en-us/azure/data-explorer/kusto/query/tutorial)
+- [Pluralsight KQL](https://www.pluralsight.com/search?q=kusto)
+- [KQL Café YouTube Series](https://www.youtube.com/playlist?list=PLR8MgKh4z4rJPGCaR7fMTmS8QvPl1YQ6I)
+
+### YouTube Channels
+- [Microsoft Azure](https://www.youtube.com/c/MicrosoftAzure)
+- [John Savill's Technical Training](https://www.youtube.com/c/NTFAQGuy)
+- [Rod Trent](https://www.youtube.com/c/RodTrent)
+
+### Practice Platforms
+- [KQL Demo Environment](https://aka.ms/LADemo) - Azure Log Analytics demo
+- [Application Insights Demo](https://portal.azure.com/#blade/AppInsightsExtension/DemoDataBlade)
+- [Kusto Detective Agency](https://detective.kusto.io/) - KQL challenges
+
+---
+
 ## 🐳 Docker
 
 ### Official Documentation

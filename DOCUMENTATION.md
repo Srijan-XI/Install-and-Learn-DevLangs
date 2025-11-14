@@ -8,11 +8,11 @@ Welcome to the complete documentation for DevSphere!
 
 ### Summary
 - **10 Programming Languages**: Python, Java, C/C++, PHP, R, Rust, Go, JavaScript, TypeScript, SQL
-- **131+ Practice Questions**: Beginner to Expert levels
+- **141+ Practice Questions**: Beginner to Expert levels
 - **Python Frameworks**: Django, Flask
 - **JavaScript Frameworks**: Node.js, Express.js, Next.js
 - **DevOps & CI/CD Tools**: Docker, Git, Jenkins
-- **Development Tools**: GitHub, Postman, Jest
+- **Development Tools**: Bash, KQL, GitHub, Postman, Jest
 - **Database Guides**: MySQL, PostgreSQL, MongoDB, Redis, DynamoDB
 
 ### Getting Started
@@ -150,6 +150,20 @@ Welcome to the complete documentation for DevSphere!
 ---
 
 ## 🛠️ Development Tools & Platforms
+
+### Bash 🐚
+- **Location**: `/Bash/`
+- **Introduction**: `Bash/intro.md`
+- **User Guide**: `Bash/user-guide.md`
+- **Practice**: `Bash/Questions/` (10 questions Q1-Q10)
+- **Topics**: Shell Scripting, Command Line, File Operations, Text Processing, Variables, Control Structures, Functions, Process Management, Automation, Best Practices
+
+### KQL (Kusto Query Language) 📊
+- **Location**: `/Kql/`
+- **Introduction**: `Kql/intro.md`
+- **User Guide**: `Kql/user-guide.md`
+- **Practice**: `Kql/Questions/` (10 queries Q1-Q10)
+- **Topics**: Azure Log Analytics, Application Insights, Query Syntax, Operators, Filtering, Aggregation, Time Series Analysis, Joins, Visualization, Best Practices
 
 ### GitHub 🐙
 - **Location**: `/GitHub/`
