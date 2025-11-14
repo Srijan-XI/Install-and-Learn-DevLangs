@@ -6,14 +6,15 @@ To become the most comprehensive, beginner-friendly repository for learning prog
 
 ---
 
-## Current Status (v1.0) ✅
+## Current Status (v1.3) ✅
 
 ### Completed Features
 - ✅ 10 programming languages (Python, Java, C/C++, PHP, R, Rust, Go, JavaScript, TypeScript, SQL)
-- ✅ 116+ practice questions
+- ✅ 131+ practice questions
+- ✅ Python frameworks (Django, Flask)
 - ✅ JavaScript framework guides (Node.js, Express.js, Next.js)
-- ✅ Docker containerization guide (DevOps tool)
-- ✅ Installation guides for all major platforms
+- ✅ DevOps & CI/CD tools (Docker, Git, Jenkins)
+- ✅ Development tools (GitHub, Postman, Jest)
 - ✅ Installation guides for all major platforms
 - ✅ MIT License
 - ✅ Contributing guidelines
@@ -34,6 +35,15 @@ To become the most comprehensive, beginner-friendly repository for learning prog
 - [x] TypeScript ✅
 - [x] Go (Golang) ✅
 - [x] SQL (MySQL, PostgreSQL, MongoDB, Redis, DynamoDB) ✅
+
+### New Tools & Frameworks
+- [x] Git version control ✅
+- [x] Jenkins CI/CD ✅
+- [x] GitHub collaboration ✅
+- [x] Postman API testing ✅
+- [x] Jest testing framework ✅
+- [x] Django Python framework ✅
+- [x] Flask Python microframework ✅
 
 ### Content Improvements
 - [ ] Add solution explanations for existing questions
@@ -189,11 +199,12 @@ Have an idea that's not on the roadmap? We'd love to hear it!
 - **v1.0** (November 2025) - Initial release with 6 languages
 - **v1.1** (November 2025) - Added Go/Golang, TypeScript, and SQL (5 databases)
 - **v1.2** (November 2025) - Added JavaScript (25 questions + Node.js, Express.js, Next.js guides)
+- **v1.3** (November 2025) - Added Git, Jenkins, GitHub, Postman, Jest, Django, Flask
 - **v2.0** (Planned) - Interactive features and web interface
 
 ---
 
-**Last Updated**: November 13, 2025
+**Last Updated**: November 14, 2025
 
 *This roadmap is subject to change based on community feedback and contributions.*
 

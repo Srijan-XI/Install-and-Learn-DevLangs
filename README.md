@@ -4,6 +4,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Languages](https://img.shields.io/badge/Languages-10-blue.svg)]()
+[![Frameworks](https://img.shields.io/badge/Frameworks-2-orange.svg)]()
+[![Tools](https://img.shields.io/badge/Tools-5-red.svg)]()
 [![Questions](https://img.shields.io/badge/Practice%20Questions-116%2B-green.svg)]()
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-success.svg)]()
@@ -52,8 +54,9 @@ Or jump directly to a language folder and follow the installation guide!
 - ✅ **Installation Guides** – Step-by-step setup for each language  
 - ✅ **Usage Examples** – Basic syntax and starter scripts  
 - ✅ **Practice Questions** – Hands-on coding exercises (Beginner to Advanced)  
-- ✅ **Framework Guides** – Introduction to popular frameworks (Express.js, Next.js, Node.js)  
-- ✅ **DevOps Tools** – Docker containerization guide  
+- ✅ **Framework Guides** – Django, Flask, Node.js, Express.js, Next.js  
+- ✅ **DevOps & CI/CD Tools** – Docker, Git, Jenkins  
+- ✅ **Development Tools** – GitHub, Postman, Jest testing  
 - ✅ **Platform Coverage** – Instructions for Windows, Linux, and macOS  
 - ✅ **Tooling Help** – IDE setup, compilers, package managers  
 - ✅ **Troubleshooting Tips** – Common issues and their fixes  
@@ -77,11 +80,28 @@ This repository currently includes guides and practice questions for:
 | **TypeScript** 📘 | ✅ Available | 10 Questions | Active |
 | **SQL** 🗄️ | ✅ Available | 10 Questions + 5 DB Guides | Active |
 
-### DevOps & Tools
+### Python Frameworks
+
+| Framework | Guide Available | Topics Covered | Status |
+|-----------|----------------|----------------|--------|
+| **Django** 🎯 | ✅ Available | MTV, ORM, Admin, REST APIs, Auth | Active |
+| **Flask** 🌶️ | ✅ Available | Microframework, SQLAlchemy, Blueprints, APIs | Active |
+
+### DevOps & CI/CD Tools
 
 | Tool | Guide Available | Topics Covered | Status |
 |------|----------------|----------------|--------|
 | **Docker** 🐳 | ✅ Available | Containers, Images, Compose, Networking | Active |
+| **Git** 📚 | ✅ Available | Version Control, Branching, Workflows | Active |
+| **Jenkins** 🔧 | ✅ Available | CI/CD, Pipelines, Automation | Active |
+
+### Development Tools & Platforms
+
+| Tool | Guide Available | Topics Covered | Status |
+|------|----------------|----------------|--------|
+| **GitHub** 🐙 | ✅ Available | Collaboration, Actions, Pull Requests | Active |
+| **Postman** 📮 | ✅ Available | API Testing, Collections, Newman | Active |
+| **Jest** 🃏 | ✅ Available | Testing Framework, Mocking, Coverage | Active |
 
 ---
 
@@ -99,17 +119,23 @@ cd  Install-and-Learn-DevLangs
 Navigate to the folder of the programming language you want to learn:
 
 ```bash
-cd PYTHON/        # For Python
-cd JAVA/          # For Java
-cd "C & C++"/     # For C/C++
-cd PHP/           # For PHP
-cd R/             # For R
-cd RUST/          # For Rust
-cd Golang/        # For Go (Golang)
-cd JavaScript/    # For JavaScript (Node.js, Express.js, Next.js)
-cd TypeScript/    # For TypeScript
-cd SQL/           # For SQL (MySQL, PostgreSQL, MongoDB, Redis, DynamoDB)
-cd Docker/        # For Docker containerization
+cd PYTHON/               # For Python
+cd "Python Framework"/   # For Django & Flask
+cd JAVA/                 # For Java
+cd "C & C++"/            # For C/C++
+cd PHP/                  # For PHP
+cd R/                    # For R
+cd RUST/                 # For Rust
+cd Golang/               # For Go (Golang)
+cd JavaScript/           # For JavaScript (Node.js, Express.js, Next.js)
+cd TypeScript/           # For TypeScript
+cd SQL/                  # For SQL (MySQL, PostgreSQL, MongoDB, Redis, DynamoDB)
+cd Docker/               # For Docker containerization
+cd Git/                  # For Git version control
+cd JenKins/              # For Jenkins CI/CD
+cd GitHub/               # For GitHub collaboration
+cd Postman/              # For API testing
+cd Jest/                 # For Jest testing
 ```
 
 ### 3. Follow the Installation Guide

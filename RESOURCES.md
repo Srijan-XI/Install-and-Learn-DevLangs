@@ -256,6 +256,205 @@ A curated collection of high-quality learning resources for each programming lan
 ### Official Documentation
 - [Docker Documentation](https://docs.docker.com/) - Comprehensive official docs
 - [Docker Hub](https://hub.docker.com/) - Container image registry
+
+---
+
+## 📚 Git
+
+### Official Documentation
+- [Git Documentation](https://git-scm.com/doc) - Official Git documentation
+- [Pro Git Book](https://git-scm.com/book/en/v2) - Free comprehensive guide
+- [Git Reference](https://git-scm.com/docs) - Command reference
+
+### Books
+- **Free**:
+  - [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon
+  - [Git Immersion](https://gitimmersion.com/) - Interactive tutorial
+
+- **Paid**:
+  - Version Control with Git by Jon Loeliger
+  - Git Pocket Guide by Richard E. Silverman
+
+### Online Courses
+- [Git & GitHub for Beginners (freeCodeCamp)](https://www.youtube.com/watch?v=RGOj5yH7evk)
+- [Learn Git (Codecademy)](https://www.codecademy.com/learn/learn-git)
+- [Git Tutorial (Atlassian)](https://www.atlassian.com/git/tutorials)
+
+### YouTube Channels
+- [Traversy Media](https://www.youtube.com/c/TraversyMedia)
+- [The Net Ninja](https://www.youtube.com/c/TheNetNinja)
+- [freeCodeCamp](https://www.youtube.com/c/Freecodecamp)
+
+### Practice Platforms
+- [Learn Git Branching](https://learngitbranching.js.org/) - Interactive visualizations
+- [Git Katas](https://github.com/eficode-academy/git-katas) - Exercises
+
+---
+
+## 🔧 Jenkins
+
+### Official Documentation
+- [Jenkins Documentation](https://www.jenkins.io/doc/) - Official docs
+- [Jenkins User Handbook](https://www.jenkins.io/doc/book/) - Complete guide
+- [Pipeline Syntax](https://www.jenkins.io/doc/book/pipeline/syntax/) - Pipeline reference
+
+### Books
+- **Free**:
+  - [Jenkins User Handbook](https://www.jenkins.io/doc/book/) - Official handbook
+
+- **Paid**:
+  - Jenkins: The Definitive Guide by John Ferguson Smart
+  - Learning Continuous Integration with Jenkins by Nikhil Pathania
+
+### Online Courses
+- [Jenkins Tutorial (CloudBeesTV)](https://www.youtube.com/c/CloudBeesTV)
+- [Jenkins From Zero To Hero (DevOps Directive)](https://www.youtube.com/watch?v=6YZvp2GwT0A)
+- [Learn DevOps: CI/CD with Jenkins (Udemy)](https://www.udemy.com/topic/jenkins/)
+
+### YouTube Channels
+- [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana)
+- [DevOps Directive](https://www.youtube.com/c/DevOpsDirective)
+- [CloudBeesTV](https://www.youtube.com/c/CloudBeesTV)
+
+---
+
+## 🐙 GitHub
+
+### Official Documentation
+- [GitHub Docs](https://docs.github.com/) - Official documentation
+- [GitHub Skills](https://skills.github.com/) - Interactive tutorials
+- [GitHub Actions Docs](https://docs.github.com/en/actions) - CI/CD workflows
+
+### Books
+- **Free**:
+  - [GitHub Guide](https://guides.github.com/) - Official guides
+  - [GitHub Training Manual](https://githubtraining.github.io/training-manual/)
+
+- **Paid**:
+  - GitHub Essentials by Achilleas Pipinellis
+  - Learning GitHub Actions by Brent Laster
+
+### Online Courses
+- [GitHub Learning Lab](https://lab.github.com/)
+- [Introduction to GitHub (GitHub)](https://github.com/skills/introduction-to-github)
+- [GitHub Actions Tutorial (freeCodeCamp)](https://www.youtube.com/watch?v=R8_veQiYBjI)
+
+---
+
+## 📮 Postman
+
+### Official Documentation
+- [Postman Learning Center](https://learning.postman.com/) - Official docs
+- [Postman API](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a) - API reference
+
+### Books
+- **Free**:
+  - [Postman Learning Center](https://learning.postman.com/docs/getting-started/introduction/)
+
+- **Paid**:
+  - Postman Quick Reference Guide by Bas Dijkstra
+
+### Online Courses
+- [Postman Beginner's Course (freeCodeCamp)](https://www.youtube.com/watch?v=VywxIQ2ZXw4)
+- [Postman: The Complete Guide (Udemy)](https://www.udemy.com/topic/postman/)
+- [API Testing with Postman (Test Automation University)](https://testautomationu.applitools.com/postman-tutorial/)
+
+### YouTube Channels
+- [Postman](https://www.youtube.com/c/Postman) - Official channel
+- [Automation Step by Step](https://www.youtube.com/c/AutomationStepByStep)
+- [The Testing Academy](https://www.youtube.com/c/TheTestingAcademy)
+
+---
+
+## 🃏 Jest
+
+### Official Documentation
+- [Jest Documentation](https://jestjs.io/docs/getting-started) - Official docs
+- [Jest API Reference](https://jestjs.io/docs/api) - Complete API
+
+### Books
+- **Free**:
+  - [Testing JavaScript](https://testingjavascript.com/) - Free intro course
+
+- **Paid**:
+  - Testing JavaScript Applications by Lucas da Costa
+
+### Online Courses
+- [JavaScript Testing Introduction (Jest)](https://jestjs.io/docs/tutorial-react)
+- [Testing JavaScript (Kent C. Dodds)](https://testingjavascript.com/)
+- [Jest Crash Course (Traversy Media)](https://www.youtube.com/watch?v=7r4xVDI2vho)
+
+### YouTube Channels
+- [Traversy Media](https://www.youtube.com/c/TraversyMedia)
+- [Web Dev Simplified](https://www.youtube.com/c/WebDevSimplified)
+- [Fireship](https://www.youtube.com/c/Fireship)
+
+---
+
+## 🎯 Django
+
+### Official Documentation
+- [Django Documentation](https://docs.djangoproject.com/) - Official comprehensive docs
+- [Django Tutorial](https://docs.djangoproject.com/en/stable/intro/tutorial01/) - Official tutorial
+- [Django REST Framework](https://www.django-rest-framework.org/) - DRF docs
+
+### Books
+- **Free**:
+  - [Django for Beginners](https://djangoforbeginners.com/) - Sample chapters
+  - [Django Girls Tutorial](https://tutorial.djangogirls.org/)
+
+- **Paid**:
+  - Django for Beginners by William S. Vincent
+  - Two Scoops of Django by Daniel Roy Greenfeld
+  - Django for APIs by William S. Vincent
+
+### Online Courses
+- [Django for Everybody (Coursera)](https://www.coursera.org/specializations/django)
+- [Django Tutorial (Mozilla MDN)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django)
+- [Python Django Tutorial (freeCodeCamp)](https://www.youtube.com/watch?v=F5mRW0jo-U4)
+
+### YouTube Channels
+- [Corey Schafer](https://www.youtube.com/c/Coreyms) - Excellent Django series
+- [Traversy Media](https://www.youtube.com/c/TraversyMedia)
+- [Dennis Ivy](https://www.youtube.com/c/DennisIvy)
+
+### Practice Platforms
+- [Django Tutorial (Official)](https://docs.djangoproject.com/en/stable/intro/tutorial01/)
+- [Real Python Django Tutorials](https://realpython.com/tutorials/django/)
+
+---
+
+## 🌶️ Flask
+
+### Official Documentation
+- [Flask Documentation](https://flask.palletsprojects.com/) - Official docs
+- [Flask Quickstart](https://flask.palletsprojects.com/en/stable/quickstart/) - Quick guide
+- [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) - Comprehensive tutorial
+
+### Books
+- **Free**:
+  - [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world) by Miguel Grinberg
+  - [Explore Flask](https://exploreflask.com/) - Free book
+
+- **Paid**:
+  - Flask Web Development by Miguel Grinberg
+  - Python Web Development with Flask by Gareth Dwyer
+
+### Online Courses
+- [Flask Tutorial (Official)](https://flask.palletsprojects.com/en/stable/tutorial/)
+- [Flask for Beginners (freeCodeCamp)](https://www.youtube.com/watch?v=Z1RJmh_OqeA)
+- [CS50's Web Programming with Python and JavaScript](https://cs50.harvard.edu/web/)
+
+### YouTube Channels
+- [Corey Schafer](https://www.youtube.com/c/Coreyms) - Excellent Flask series
+- [Tech With Tim](https://www.youtube.com/c/TechWithTim)
+- [Pretty Printed](https://www.youtube.com/c/PrettyPrintedTutorials)
+
+### Practice Platforms
+- [Flask Tutorial (Official)](https://flask.palletsprojects.com/en/stable/tutorial/)
+- [Real Python Flask Tutorials](https://realpython.com/tutorials/flask/)
+
+---
 - [Docker Compose Docs](https://docs.docker.com/compose/) - Multi-container applications
 
 ### Books

@@ -13,6 +13,82 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Interactive coding challenges
 - Video tutorials for installation
 
+## [1.3.0] - 2025-11-14
+
+### Added
+- **Git** comprehensive version control guide covering:
+  - Introduction to Git and version control systems
+  - Installation for Windows, macOS, and Linux
+  - User installation and configuration guide
+  - Basic and advanced Git commands
+  - Branching, merging, and workflows
+  - Remote repositories and collaboration
+  - Best practices and troubleshooting
+- **Jenkins** complete CI/CD automation guide covering:
+  - Introduction to Jenkins and CI/CD concepts
+  - Installation via Docker, package managers, and WAR file
+  - Initial setup and plugin management
+  - Creating jobs (Freestyle, Pipeline, Multibranch)
+  - Pipeline as Code with declarative and scripted syntax
+  - Source control integration (Git, GitHub, GitLab)
+  - Build triggers and distributed builds
+  - Agents, nodes, and credentials management
+  - Best practices and security
+- **Jest** testing framework guide covering:
+  - Introduction to Jest and JavaScript testing
+  - Installation and setup for various environments
+  - Writing tests with matchers and assertions
+  - Async testing and mocking
+  - Snapshot testing and React component testing
+  - Code coverage and configuration
+  - Best practices and CI integration
+- **GitHub** collaboration platform guide covering:
+  - Introduction to GitHub features and workflows
+  - Core concepts (repositories, branches, pull requests)
+  - GitHub Actions for CI/CD
+  - Projects, Issues, and Discussions
+  - Permissions, governance, and security
+  - Best practices and learning path
+- **Postman** API platform guide covering:
+  - Introduction to Postman and API testing
+  - Installation (Desktop, Web, Newman CLI)
+  - Creating and organizing requests and collections
+  - Authorization and authentication
+  - Variables and environments
+  - Pre-request scripts and tests with JavaScript
+  - Collection Runner and Newman for automation
+  - Mock servers and monitors
+  - Documentation generation and OpenAPI import
+  - CI/CD integration and best practices
+- **Django** Python web framework guide covering:
+  - Introduction to Django and MTV architecture
+  - Installation and project setup
+  - Models, migrations, and ORM
+  - Views, URLs, and templates
+  - Django admin interface
+  - Forms and validation
+  - Django REST Framework basics
+  - Testing and deployment
+  - Best practices and ecosystem
+- **Flask** Python microframework guide covering:
+  - Introduction to Flask and microframework concepts
+  - Installation and basic application setup
+  - Routing and request handling
+  - Templates and static files
+  - Forms with Flask-WTF
+  - SQLAlchemy integration and migrations
+  - Blueprints and application factory pattern
+  - Configuration management
+  - Testing with pytest
+  - Building JSON APIs
+  - Deployment and best practices
+
+### Changed
+- Enhanced README.md with new tools and frameworks sections
+- Updated badge counts (2 frameworks, 5 tools added)
+- Reorganized tool categories (DevOps, Development Tools, Frameworks)
+- Updated repository navigation to include new folders
+
 ## [1.2.0] - 2025-11-13
 
 ### Added

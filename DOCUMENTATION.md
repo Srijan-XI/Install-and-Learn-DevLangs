@@ -9,8 +9,10 @@ Welcome to the complete documentation for DevSphere!
 ### Summary
 - **10 Programming Languages**: Python, Java, C/C++, PHP, R, Rust, Go, JavaScript, TypeScript, SQL
 - **131+ Practice Questions**: Beginner to Expert levels
-- **DevOps Tools**: Docker containerization guide
-- **Framework Guides**: Node.js, Express.js, Next.js
+- **Python Frameworks**: Django, Flask
+- **JavaScript Frameworks**: Node.js, Express.js, Next.js
+- **DevOps & CI/CD Tools**: Docker, Git, Jenkins
+- **Development Tools**: GitHub, Postman, Jest
 - **Database Guides**: MySQL, PostgreSQL, MongoDB, Redis, DynamoDB
 
 ### Getting Started
@@ -42,6 +44,20 @@ Welcome to the complete documentation for DevSphere!
 - **Packages**: `PYTHON/Python-Packages.md`
 - **Practice**: `PYTHON/Python questions/` (21 questions)
 - **Levels**: Beginner (q01-q10), Intermediate (q11-q16), Advanced (q17-q21)
+
+### Python Frameworks 🎯
+
+#### Django
+- **Location**: `/Python Framework/Django/`
+- **Introduction**: `Python Framework/Django/intro.md`
+- **User Guide**: `Python Framework/Django/user-guide.md`
+- **Topics**: MTV Architecture, ORM, Admin, Models, Migrations, Views, Templates, Forms, Django REST Framework, Authentication, Testing, Deployment
+
+#### Flask
+- **Location**: `/Python Framework/Flask/`
+- **Introduction**: `Python Framework/Flask/intro.md`
+- **User Guide**: `Python Framework/Flask/user-guide.md`
+- **Topics**: Microframework, Routing, Templates, Forms, SQLAlchemy, Migrations, Blueprints, App Factory, Testing, APIs, Deployment
 
 ### Java ☕
 - **Location**: `/JAVA/`
@@ -118,6 +134,39 @@ Welcome to the complete documentation for DevSphere!
 - **Location**: `/Docker/`
 - **Introduction**: `Docker/intro.md`
 - **Topics**: Containers, Images, Dockerfile, Docker Compose, Volumes, Networking, Best Practices
+
+### Git 📚
+- **Location**: `/Git/`
+- **Introduction**: `Git/intro.md`
+- **User Guide**: `Git/user-install-guide.md`
+- **Topics**: Version Control, Installation (Windows/macOS/Linux), Basic Commands, Repositories, Branching, Merging, Remote Operations, Advanced Operations, Workflows, Troubleshooting
+
+### Jenkins 🔧
+- **Location**: `/JenKins/`
+- **Introduction**: `JenKins/intro.md`
+- **User Guide**: `JenKins/user-guide.md`
+- **Topics**: CI/CD, Installation (Docker/Package Managers/WAR), Jobs, Pipelines, Pipeline as Code, Source Control Integration, Build Triggers, Agents, Credentials, Plugins, Best Practices
+
+---
+
+## 🛠️ Development Tools & Platforms
+
+### GitHub 🐙
+- **Location**: `/GitHub/`
+- **Introduction**: `GitHub/intro.md`
+- **Topics**: Repositories, Pull Requests, Issues, GitHub Actions, Projects, Discussions, Collaboration, Branch Protection, Code Owners, Workflows, Best Practices
+
+### Postman 📮
+- **Location**: `/Postman/`
+- **Introduction**: `Postman/intro.md`
+- **User Guide**: `Postman/user-guide.md`
+- **Topics**: API Testing, Installation, Requests, Collections, Authorization, Variables, Environments, Scripts (Pre-request & Tests), Collection Runner, Newman, Mock Servers, Monitors, Documentation, OpenAPI Import, CI/CD Integration
+
+### Jest 🃏
+- **Location**: `/Jest/`
+- **Introduction**: `Jest/intro.md`
+- **User Guide**: `Jest/user-guide.md`
+- **Topics**: Testing Framework, Installation, Writing Tests, Matchers, Async Testing, Mocking, Snapshot Testing, React Testing, Code Coverage, Configuration, Best Practices
 
 ---
 

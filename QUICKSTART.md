@@ -81,6 +81,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 Install-and-Learn-DevLangs/
 │
 ├── PYTHON/              # Python guides & questions
+├── Python Framework/    # Django & Flask guides
 ├── JAVA/                # Java guides & questions  
 ├── JavaScript/          # JavaScript guides & questions + frameworks
 ├── C & C++/             # C/C++ guides & questions
@@ -88,6 +89,11 @@ Install-and-Learn-DevLangs/
 ├── R/                   # R guides & questions
 ├── RUST/                # Rust guides & questions
 ├── Docker/              # Docker containerization guide
+├── Git/                 # Git version control guide
+├── JenKins/             # Jenkins CI/CD guide
+├── GitHub/              # GitHub collaboration guide
+├── Postman/             # Postman API testing guide
+├── Jest/                # Jest testing guide
 │
 ├── README.md            # Main documentation
 ├── CONTRIBUTING.md      # How to contribute
