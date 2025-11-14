@@ -131,3 +131,4 @@ secrets/
 credentials.json
 # Ignore text files
 *.txt
+samples/
